@@ -58,7 +58,9 @@ Then you can find translation.
 
 ### Version
 
-Managed by branch (eg. 0.1, 0.2, ...)
+Managed by branch (eg. 0.1, 0.2, ...). Need to activate manually in `Versions`
+
+![readthedocs-versions](./img/readthedocs-versions.png)
 
 ## References
 
