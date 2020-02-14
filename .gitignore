@@ -1,1 +1,9 @@
+# build dir
 build/
+
+# translated files
+*.mo
+
+# .*
+.*
+!.gitignore

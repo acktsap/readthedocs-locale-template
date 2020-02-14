@@ -18,28 +18,21 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile all en ko clean en_clean ko_clean
+.PHONY: help Makefile all en ko clean
 
 
 # Custom targets
 
 all: en ko
 
-locale:
-	@$(SPHINXINTL) update -p "$(BUILDDIR)/gettext" -l en -l ko
+locale: gettext
+	@$(SPHINXINTL) update -p "$(BUILDDIR)/gettext" -l ko
 
 en:
 	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/en" -D language=en $(SPHINXOPTS) $(O)
 
-en_clean:
-	@echo "Removing $(BUILDDIR)/html/en"
-	@rm -rf "$(BUILDDIR)/html/es_EN"
-
 ko:
-	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/ko" -D language=kkko) $(O)
+	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/ko" -D language=ko $(SPHINXOPTS) $(O)
 
-ko_clean:
-	@echo "Removing $(BUILDDIR)/html/ko"
-	@rm -rf "$(BUILDDIR)/html/es_KO"
-
-clean: en_clean ko_clean
+clean:
+	@rm -rf "$(BUILDDIR)"
