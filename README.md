@@ -1,4 +1,6 @@
-# Sphinx & readthedocs Template
+# Read the Docs Locale Template
+
+Localication template using Read the Docs and sphinx.
 
 ## Usage
 
@@ -35,7 +37,7 @@ Make html
 
 ## Read the Docs
 
-[Read the Docs](https://readthedocs.org/dashboard/) provides free hosting for open-source project. For multi-language project, you need translation project for each language. For example, if you have 2 languages (english as base, korean as translation). You have to make two projet
+[Read the Docs](https://readthedocs.org/dashboard/) provides free hosting for open-source project. For multi-language project, you need translation project for each language. For example, if you have 2 languages (english as base, korean as translation). You have to make two projet.
 
 - {project_name}
 - {project_name}_ko
