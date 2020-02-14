@@ -29,17 +29,17 @@ locale:
 	@$(SPHINXINTL) update -p "$(BUILDDIR)/gettext" -l en -l ko
 
 en:
-	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/es_EN" -D language=en $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/en" -D language=en $(SPHINXOPTS) $(O)
 
 en_clean:
-	@echo "Removing $(BUILDDIR)/html/es_EN"
+	@echo "Removing $(BUILDDIR)/html/en"
 	@rm -rf "$(BUILDDIR)/html/es_EN"
 
 ko:
-	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/es_KO" -D language=kkko) $(O)
+	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/ko" -D language=kkko) $(O)
 
 ko_clean:
-	@echo "Removing $(BUILDDIR)/html/es_KO"
+	@echo "Removing $(BUILDDIR)/html/ko"
 	@rm -rf "$(BUILDDIR)/html/es_KO"
 
 clean: en_clean ko_clean

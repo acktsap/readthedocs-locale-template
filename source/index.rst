@@ -3,14 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-{Welcome}
+{welcome}
 ================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: {Welcome_Caption}:
+   :caption: {welcome_caption}:
 
-{CONTENTS}
+{contents}
 ==================
 
 * :ref:`genindex`

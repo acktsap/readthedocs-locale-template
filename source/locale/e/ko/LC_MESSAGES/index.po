@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: test \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-13 14:29+0900\n"
+"POT-Creation-Date: 2020-02-14 13:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +18,16 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 
 #: ../../source/index.rst:9
-msgid "{Welcome_Caption}:"
-msgstr ""
+msgid "{welcome_caption}:"
+msgstr "안녕하세요!"
 
 #: ../../source/index.rst:7
-msgid "{Welcome}"
-msgstr ""
+msgid "{welcome}"
+msgstr "안녕!"
 
 #: ../../source/index.rst:14
-msgid "{CONTENTS}"
-msgstr ""
+msgid "{contents}"
+msgstr "내용"
 
 #: ../../source/index.rst:16
 msgid ":ref:`genindex`"
@@ -40,4 +40,13 @@ msgstr ""
 #: ../../source/index.rst:18
 msgid ":ref:`search`"
 msgstr ""
+
+#~ msgid "{Welcome_Caption}:"
+#~ msgstr ""
+
+#~ msgid "{Welcome}"
+#~ msgstr ""
+
+#~ msgid "{CONTENTS}"
+#~ msgstr ""
 
