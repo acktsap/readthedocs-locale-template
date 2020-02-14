@@ -37,6 +37,8 @@ Make html
 
 ## Read the Docs
 
+### Localication
+
 [Read the Docs](https://readthedocs.org/dashboard/) provides free hosting for open-source project. For multi-language project, you need translation project for each language. For example, if you have 2 languages (english as base, korean as translation). You have to make two projet.
 
 - {project_name}
@@ -53,6 +55,10 @@ And in the base project, add translation.
 Then you can find translation.
 
 ![readthedocs-result](./img/readthedocs-result.png)
+
+### Version
+
+Managed by branch (eg. 0.1, 0.2, ...)
 
 ## References
 

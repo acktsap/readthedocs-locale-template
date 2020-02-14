@@ -17,12 +17,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'sphinx template'
-copyright = '2020, acktsap'
-author = 'acktsap'
+project = u'readthedocs-locale-template'
+copyright = u'2020, acktsap'
+author = u'acktsap'
 
+# The short X.Y version
+version = u''
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = u''
 
 
 # -- General configuration ---------------------------------------------------
