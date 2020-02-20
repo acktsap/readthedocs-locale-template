@@ -51,6 +51,7 @@ master_doc = 'index'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
+# https://sphinx-themes.org/
 #
 html_theme = 'sphinx_rtd_theme'
 
