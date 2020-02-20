@@ -41,8 +41,7 @@ Make html
 
 [Read the Docs](https://readthedocs.org/dashboard/) provides free hosting for open-source project. For multi-language project, you need translation project for each language. For example, if you have 2 languages (english as base, korean as translation). You have to make two projet.
 
-- {project_name}
-- {project_name}_ko
+![readthedocs-projects](./img/readthedocs-projects.png)
 
 Set language for each project in `Admin -> Settings -> language`
 
@@ -58,7 +57,7 @@ Then you can find translation.
 
 ### Version
 
-Managed by branch (eg. 0.1, 0.2, ...). Need to activate manually in `Versions`
+Managed by tag (eg. v0.1, v0.2, ...)
 
 ![readthedocs-versions](./img/readthedocs-versions.png)
 
