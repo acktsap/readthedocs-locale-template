@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sphinx i18n template \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-14 16:34+0900\n"
+"POT-Creation-Date: 2020-04-03 14:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +19,14 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 
 #: ../../source/index.rst:4
+msgid "RestructuredText"
+msgstr ""
+
+#: ../../source/index.rst:10
 msgid "Topics"
 msgstr ""
 
-#: ../../source/index.rst:11
+#: ../../source/index.rst:17
 msgid "Etc"
 msgstr ""
 
@@ -30,28 +34,18 @@ msgstr ""
 msgid "Welcome"
 msgstr ""
 
-#: ../../source/index.rst:19
+#: ../../source/index.rst:25
 msgid "Indices"
 msgstr ""
 
-#: ../../source/index.rst:21
+#: ../../source/index.rst:27
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../source/index.rst:22
+#: ../../source/index.rst:28
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../source/index.rst:23
+#: ../../source/index.rst:29
 msgid ":ref:`search`"
 msgstr ""
-
-#~ msgid "{index_topic_caption}:"
-#~ msgstr ""
-
-#~ msgid "{index_etc_caption}:"
-#~ msgstr ""
-
-#~ msgid "{index_welcome}"
-#~ msgstr ""
-

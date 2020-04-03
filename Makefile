@@ -26,7 +26,7 @@ help:
 all: en ko
 
 locale: gettext
-	@$(SPHINXINTL) update -p "$(BUILDDIR)/gettext" -l ko
+	@$(SPHINXINTL) update -p "$(BUILDDIR)/gettext" -l ko # add more languages
 
 en:
 	@$(SPHINXBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html/en" -D language=en $(SPHINXOPTS) $(O)

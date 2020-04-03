@@ -7,12 +7,3 @@ Subtopic
 ---------
 
 This is subtopic.
-
-Code
----------
-
-This is code.
-
-.. code-block:: java
-
-  System.out.println("Hello world");

@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, acktsap
+# This file is distributed under the same license as the
+# readthedocs-locale-template package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: readthedocs-locale-template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-03 14:51+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/rst-guide/image.rst:2
+msgid "Image"
+msgstr "이미지"
+
+#: ../../source/rst-guide/image.rst:4
+msgid "This is image."
+msgstr "이것이 이미지이다."
+
+#: ../../source/rst-guide/image.rst:7
+msgid "Width only"
+msgstr "Width만 설정"
+
+#: ../../source/rst-guide/image.rst:14
+msgid "Width & height"
+msgstr "Width & height 설정"
+

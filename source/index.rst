@@ -3,6 +3,12 @@ Welcome
 
 .. toctree::
    :maxdepth: 2
+   :caption: RestructuredText
+
+   rst-guide/index
+
+.. toctree::
+   :maxdepth: 2
    :caption: Topics
 
    topic1/index
