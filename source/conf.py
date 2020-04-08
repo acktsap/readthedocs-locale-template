@@ -76,7 +76,7 @@ latex_elements = {
     '\usepackage[utf8x]{inputenc}',
     '\documentclass{article}',
     '\usepackage{kotex}',
-  ))
+  )),
   
   # Latex figure (float) alignment
   'figure_align': 'htbp',
