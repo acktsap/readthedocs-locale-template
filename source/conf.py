@@ -72,7 +72,11 @@ latex_elements = {
   'pointsize': '10pt',
   
   # Additional stuff for the LaTeX preamble.
-  'preamble': '',
+  'preamble': "".join((
+    '\usepackage[utf8x]{inputenc}',
+    '\documentclass{article}',
+    '\usepackage{kotex}',
+  ))
   
   # Latex figure (float) alignment
   'figure_align': 'htbp',
