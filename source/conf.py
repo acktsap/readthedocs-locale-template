@@ -61,6 +61,28 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 
+# -- Options for pdf output -------------------------------------------------
+
+latex_engine = 'xelatex'
+latex_elements = {
+  # The paper size ('letterpaper' or 'a4paper').
+  'papersize': 'a4paper',
+  
+  # The font size ('10pt', '11pt' or '12pt').
+  'pointsize': '10pt',
+  
+  # Additional stuff for the LaTeX preamble.
+  'preamble': '',
+  
+  # Latex figure (float) alignment
+  'figure_align': 'htbp',
+  
+  
+  # kotex config
+  'figure_align': 'htbp',
+}
+
+
 # -- Custom configuration ---------------------------------------------------
 
 # language
